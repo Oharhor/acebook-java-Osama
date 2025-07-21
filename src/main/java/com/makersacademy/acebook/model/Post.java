@@ -13,6 +13,7 @@ public class Post {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String content;
+    // maybe adding private Long userid
 
     public Post() {}
 
